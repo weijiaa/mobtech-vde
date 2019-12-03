@@ -1,15 +1,14 @@
 {
-  "name": "vde",
-  "version": "1.0.0",
-  "description": "vue development environment",
+  "name": "mobtech-vde",
+  "version": "0.0.1",
+  "description": "Vue development environment",
   "scripts": {
     "dev": "node scripts/dev.js",
     "start": "npm run dev",
     "build-dll": "node scripts/build.dll.js",
     "build-uat": "cross-env NODE_ENV=uat node scripts/build.js",
     "build-test": "cross-env NODE_ENV=test node scripts/build.js",
-    "build-prod": "cross-env NODE_ENV=prod node scripts/build.js",
-    "test": "node scripts/test.js "
+    "build-prod": "cross-env NODE_ENV=prod node scripts/build.js"
   },
   "keywords": [
     "vue",
