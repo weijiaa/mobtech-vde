@@ -1,7 +1,7 @@
 <template>
   <div id="app">
-    <P class="fonova" style="margin-top: 90px;">Welcome to usage</P>
-    <P class="fonova" style="font-size: 46px">Fonova Vue IDE!</P>
+    <P class="mob-tech" style="margin-top: 90px;">Welcome to usage</P>
+    <P class="mob-tech" style="font-size: 46px">MobTech Vue IDE!</P>
   </div>
 </template>
 
@@ -15,7 +15,7 @@
   #app {
     height: 100%;
   }
-  .fonova {
+  .mob-tech {
     line-height: 70px;
     font-size: 38px;
     text-align: center;
